@@ -21,6 +21,7 @@ Coming soon.
 3. Open `spwn-lang` folder in the terminal.
 4. Run `cargo build`.
 5. Compiled binary is placed in `target/debug`.
+> note that with a compiled build, libraries may not be in the same directory as the executable making you unable to use the standard library. When building with SPWN you must include the directory that has `libraries/` or move `libraries/` to the executable directory.
 
 # Documentation
 
